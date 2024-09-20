@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Black Signature";
-    src: url("/fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+    src: url("./../fonts/BlackSignaturePersonalUseOnlyRegular.otf");
 }
 
 @font-face {
     font-family: "Changa One";
-    src: url("/fonts/ChangaOne-Regular.ttf");
+    src: url("./../fonts/ChangaOne-Regular.ttf");
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Regular.ttf");
+    src: url("./../fonts/Roboto-Regular.ttf");
 }
 
 * {
@@ -97,7 +97,7 @@ hr{
 
 .hero_background{
     width: 100%;
-    background-image: url("../img/hero-bg.webp");
+    background-image: url("./../img/hero-bg.webp");
     background-repeat: no-repeat;                  
     background-size: cover;                       
     position: relative;
