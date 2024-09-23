@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="/styles/style.css">
+    <link rel ="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -44,7 +44,7 @@
 
     <div class="featured-container">
         <div class="featured-content">
-            <img src="/img/Featured.png" alt="">
+            <img src="./img/Featured.png" alt="">
             <div class="featured-blurb">
                 <span>FEATURED DESTINATION</span>
                 <p>Our swiss adventure blog</p>
@@ -66,29 +66,70 @@
             </div>
             <div class="discover-location">
                 <div class="discover-location-content">
-                    <img src="/img/Iceland.png">
+                    <img src="./img/Iceland.png">
                     <span>Iceland</span>
                     <p>Discover</p>
                 </div>
                 <div class="discover-location-content">
-                    <img src="/img/Italy.png">
+                    <img src="./img/Italy.png">
                     <span>Italy</span>
                     <p>Discover</p>
                 </div>
                 <div class="discover-location-content">
-                    <img src="/img/Dubai.png">
+                    <img src="./img/Dubai.png">
                     <span>Dubai</span>
                     <p>Discover</p>
                 </div>
                 <div class="discover-location-content">
-                    <img src="/img/Patagonia.png">
+                    <img src="./img/Patagonia.png">
                     <span>Patagonia</span>
                     <p>Discover</p>
                 </div>
             </div>
         </div>
     </div>
-</boddiv>
+    <div class="share_travel-background">
+        <div class="share_travel-form">
+            <div class="share_tarvel-form-content">
+                <div class="share_travel-form-header">
+                    <p>Let's build a community</p>
+                    <span>Join out next destination</span>
+                </div>
+                <div class="share_travel-form-header-block">
+                    <span>Share your travels</span>
+                    <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+                    <form>
+                        <div class="input">
+                            <input type="text" name="destination", placeholder="Destination name ">
+                        </div>
+                        <div class="select">
+                            <select name="country" id="country">
+                                <option value="" disabled selected>Select a country</option>
+                                <option value="China">USA</option>
+                                <option value="Korea">France</option>
+                                <option value="Japan">Japan</option>
+                            </select>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="your_name", placeholder="Your Name">
+                        </div>
+                        <div class="select">
+                            <select name="category" id="category">
+                            <option value="" disabled selected>Shooting category</option>
+                            <option value="1">Landscape</option>
+                            <option value="2">Portrait</option>
+                            <option value="3">Wildlife</option>
+                            </select>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="test" placeholder="Describe what kind of photos you want to focus on">
+                        </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
 
 
