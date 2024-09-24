@@ -225,6 +225,7 @@ hr{
         align-items: center;
         width: 144px;
         height: 36px;
+        margin-top: 24px;
 
 
         img{
@@ -278,6 +279,9 @@ hr{
         text-align: center;
         margin-bottom: 48px;
         font-size: 39px;
+        p{
+            margin-bottom: 8px;
+        }
 
     }
     &-location{
@@ -321,7 +325,7 @@ hr{
 
     }
     &-form{
-        max-width: 657px;
+        max-width: 617px;
         width: 100%;
         padding: 90px;
         margin: 0 auto;
@@ -351,7 +355,7 @@ hr{
             }
 
             &-block{
-                padding:20px;
+                padding:30px;
                 background-color: #FFFFFF;
 
                 span{
@@ -369,6 +373,7 @@ hr{
                     line-height: 34px;
                     text-align: left;
                     color: #576074;
+                    margin-bottom: 17px;
 
                 }
             }
@@ -376,15 +381,27 @@ hr{
         }
 
 
-        .input {
-            position: relative;
-            margin-bottom: 20px;
-
-            input {
+            textarea {
+                height: 102px;
                 width: 100%;
+                max-width: 537px;
                 padding: 10px;
                 border: 1px solid #ccc;
-                border-radius: 5px;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-bottom: 17px;
+                &::placeholder {
+                    font-family: "Roboto";
+                }
+            }
+            input {
+                height: 56px;
+                width: 100%;
+                max-width: 537px;
+                padding: 0 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
                 font-size: 16px;
 
                 &:focus {
@@ -398,12 +415,7 @@ hr{
                 color: #999;
                 transition: 0.2s;
             }
-
-        }    
-        
-        .select {
-            margin-bottom: 20px;
-
+   
             label {
                 display: block;
                 margin-bottom: 5px;
@@ -412,24 +424,29 @@ hr{
             }
 
             select {
+                height: 56px;
                 width: 100%;
                 padding: 10px;
                 border: 1px solid #ccc;
-                border-radius: 5px;
+                border-radius: 4px;
                 font-size: 16px;
+                margin-bottom: 10px;
 
                 &:focus {
                     border-color: #8A53FF;
                 }
             }
-        }
 
         button {
             background-color: #8A53FF;
             color: white;
-            padding: 3px 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 46px;
+            width: 222px;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             font-size: 16px;
             cursor: pointer;
 

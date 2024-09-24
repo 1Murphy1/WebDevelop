@@ -200,6 +200,7 @@ hr {
   align-items: center;
   width: 144px;
   height: 36px;
+  margin-top: 24px;
 }
 .featured-blurb div img {
   width: 36px;
@@ -238,6 +239,9 @@ hr {
   margin-bottom: 48px;
   font-size: 39px;
 }
+.discover-title p {
+  margin-bottom: 8px;
+}
 .discover-location {
   display: flex;
   justify-content: center;
@@ -272,7 +276,7 @@ hr {
   display: flex;
 }
 .share_travel-form {
-  max-width: 657px;
+  max-width: 617px;
   width: 100%;
   padding: 90px;
   margin: 0 auto;
@@ -298,7 +302,7 @@ hr {
   color: #434343;
 }
 .share_travel-form-header-block {
-  padding: 20px;
+  padding: 30px;
   background-color: #FFFFFF;
 }
 .share_travel-form-header-block span {
@@ -316,53 +320,69 @@ hr {
   line-height: 34px;
   text-align: left;
   color: #576074;
+  margin-bottom: 17px;
 }
-.share_travel-form .input {
-  position: relative;
-  margin-bottom: 20px;
-}
-.share_travel-form .input input {
+.share_travel-form textarea {
+  height: 102px;
   width: 100%;
+  max-width: 537px;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 17px;
+}
+.share_travel-form textarea::placeholder {
+  font-family: "Roboto";
+}
+.share_travel-form input {
+  height: 56px;
+  width: 100%;
+  max-width: 537px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   font-size: 16px;
 }
-.share_travel-form .input input:focus {
+.share_travel-form input:focus {
   border-color: #8A53FF;
 }
-.share_travel-form .input label {
+.share_travel-form label {
   position: absolute;
   top: 10px;
   left: 10px;
   color: #999;
   transition: 0.2s;
 }
-.share_travel-form .select {
-  margin-bottom: 20px;
-}
-.share_travel-form .select label {
+.share_travel-form label {
   display: block;
   margin-bottom: 5px;
   font-size: 16px;
   color: #434343;
 }
-.share_travel-form .select select {
+.share_travel-form select {
+  height: 56px;
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 16px;
+  margin-bottom: 10px;
 }
-.share_travel-form .select select:focus {
+.share_travel-form select:focus {
   border-color: #8A53FF;
 }
 .share_travel-form button {
   background-color: #8A53FF;
   color: white;
-  padding: 3px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  width: 222px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
 }
