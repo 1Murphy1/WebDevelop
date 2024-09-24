@@ -284,21 +284,20 @@ hr{
         }
 
     }
+   
     &-location{
         display: flex;
-        justify-content: center;
-        align-items: center;
 
         &-content{
             display: flex;
             flex-direction: column;
             padding: 16px;
         
-
             img{
                 display: flex;
                 width: 100%;
             }
+
             span{
                 font-family: "Changa One";
                 font-size: 24px;
@@ -306,6 +305,7 @@ hr{
                 line-height: 36px;
                 color:#434343;
             }
+
             p{
                 font-size: 16px;
                 font-weight: 400;
@@ -346,6 +346,7 @@ hr{
                 font-size: 18px;
                 font-weight: 700;
                 color: #8A53FF;
+
             }
 
             span{
@@ -366,8 +367,7 @@ hr{
                     color:#434343;
                 }
                 p{
-                    font-family: Roboto;
-                    font-family: Roboto;
+                    font-family: "Roboto";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 34px;
@@ -457,4 +457,127 @@ hr{
     }
 
 
+}
+
+
+.recent_stories{
+    &-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 83px;
+        padding-bottom: 30px;
+
+        span{
+            font-family: "Roboto";
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.09px;
+            color:#8A53FF;
+            margin-bottom: 15px;
+        }
+
+        p{
+            font-family: "Changa One";
+            font-size: 39px;
+            font-weight: 400;
+            line-height: 40px;
+            color:#434343;
+
+        }
+    }
+
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        
+            
+        &-left{
+            max-width: 600px;
+            img{
+                width: 100%; 
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 14px;
+            }
+
+            &-disc{
+                
+                span{
+                    font-family: "Changa One";
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    color: #434343;                    
+                } 
+
+                p{
+                    font-family: "Roboto";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }  
+                
+                img{
+                    width: 48.87px;
+                    height: 48px;
+                    
+
+                }
+            }
+        }
+
+        &-right{
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            &-part{
+                background-color: #F9F9F9;
+                border-radius: 8px;
+                padding: 10px 11px;
+                margin-bottom: 16px;
+                display: flex;
+                font-family: "Roboto";
+
+                &-text{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 20px;
+                    color: #576074;
+                    font-family:"Roboto";
+
+
+                    p{
+                        display: contents;
+                        color:#7a47d1;
+                        font-family: "Roboto";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        text-align: left;
+                    }
+
+                    span{
+                        font-family: "Changa One";
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 36px;
+                        margin-bottom: 6px;
+                        color: #434343;
+                    }
+                }
+
+                img{
+                    width: 200px;
+                }
+            }
+
+        }
+    }
+    
 }
