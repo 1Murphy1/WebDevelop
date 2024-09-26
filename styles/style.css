@@ -483,3 +483,20 @@ hr {
 .recent_stories-block-right-part img {
   width: 200px;
 }
+
+.footer {
+  max-width: 1140px;
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #939EB4;
+}
+.footer-right {
+  display: flex;
+}
+.footer-right p {
+  margin-left: 25px;
+}
