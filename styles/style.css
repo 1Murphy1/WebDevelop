@@ -127,6 +127,7 @@ hr {
   text-align: center;
 }
 .hero-button button {
+  cursor: pointer;
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
@@ -139,7 +140,6 @@ hr {
   width: 165px;
 }
 .hero-button span {
-  cursor: pointer;
   margin-left: 10px;
   font-family: "Roboto";
   font-size: 16px;
@@ -729,4 +729,6 @@ body {
   margin: 0 auto;
 }
 
-/*# sourceMappingURL=style.css.map */
+button {
+  cursor: pointer;
+}

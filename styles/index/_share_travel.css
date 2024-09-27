@@ -1,0 +1,123 @@
+.share_travel-background {
+  background: url(../img/ShareYourTravelBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+.share_travel-form {
+  max-width: 617px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+.share_travel-form-content {
+  padding: 95px 0 90px 0;
+  margin-bottom: 0;
+}
+.share_travel-form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.share_travel-form-header p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  color: #8A53FF;
+}
+.share_travel-form-header span {
+  font-family: "Changa One";
+  font-size: 39px;
+  color: #434343;
+}
+.share_travel-form-header-block {
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+.share_travel-form-header-block span {
+  font-family: "Changa One";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #434343;
+}
+.share_travel-form-header-block p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #576074;
+  margin-bottom: 17px;
+}
+.share_travel-form textarea {
+  height: 102px;
+  width: 100%;
+  max-width: 537px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 17px;
+  resize: none;
+}
+.share_travel-form textarea::placeholder {
+  font-family: "Roboto";
+}
+.share_travel-form input {
+  height: 56px;
+  width: 100%;
+  max-width: 537px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.share_travel-form input:focus {
+  border-color: #8A53FF;
+}
+.share_travel-form label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #999;
+  transition: 0.2s;
+}
+.share_travel-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #434343;
+}
+.share_travel-form select {
+  height: 56px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.share_travel-form select:focus {
+  border-color: #8A53FF;
+}
+.share_travel-form button {
+  background-color: #8A53FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  width: 222px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.share_travel-form button:hover {
+  background-color: #7a47d1;
+}

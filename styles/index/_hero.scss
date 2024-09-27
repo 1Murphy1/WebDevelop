@@ -53,6 +53,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 
     button {
       font-family: "Roboto";
@@ -69,16 +70,18 @@
     }
 
     span {
-      cursor: pointer;
       margin-left: 10px;
       font-family: "Roboto";
       font-size: 16px;
       font-weight: 400;
       color: #434343;
+
+      a{
+        text-decoration: none;
+      }
     }
 
     img {
-      cursor: pointer;
       height: 36px;
       width: 36px;
       margin-left: 24px;

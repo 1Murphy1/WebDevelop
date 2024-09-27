@@ -11,15 +11,17 @@
   &-form {
     max-width: 617px;
     width: 100%;
-    padding: 90px;
     margin: 0 auto;
+    margin-bottom: 75px;
 
     &-content {
       padding: 95px 0 90px 0;
+      margin-bottom: 0;
     }
 
     &-header {
 
+      display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
@@ -75,6 +77,7 @@
       border-radius: 4px;
       font-size: 16px;
       margin-bottom: 17px;
+      resize: none;
 
       &::placeholder {
         font-family: "Roboto";
@@ -119,7 +122,6 @@
       border-radius: 4px;
       font-size: 16px;
       margin-bottom: 10px;
-
       &:focus {
         border-color: #8A53FF;
       }
