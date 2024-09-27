@@ -499,11 +499,17 @@ hr{
             img{
                 width: 100%; 
                 height: auto;
-                border-radius: 8px;
-                margin-bottom: 14px;
+                border-radius: 8px 8px 0 0;
+                // margin-bottom: 14px;
             }
 
             &-disc{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 14px 24px;
+                background-color: #F9F9F9;
+                border-radius: 0 0 8px 8px;
                 
                 span{
                     font-family: "Changa One";
@@ -610,51 +616,57 @@ hr{
 }
 
 .blog_article{
+    &-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 46px;
     
-    &-left{
-        max-width: 721px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        
-        p{
-            font-size: 18px;
-            color: #8A53FF;
-            font-weight: 700;
-            font-family: "Roboto";
-        }
-
-        span{
-            font-size: 50px;
-            font-weight: 500;
-            color: #434343;
-            font-family: "Changa One";
-        }
-    }
-
-    &-right{
-        
-        display: flex;
-        justify-content: flex-end; 
-        width: 100%;
-        img{
+    
+        &-left{
+            max-width: 721px;
+            width: 100%;
             display: flex;
-        }
-
-        div{
-            margin-left: 10px;
-            font-family: "Roboto";
-            font-weight: 400;
+            flex-direction: column;
+            
+            p{
+                font-size: 18px;
+                color: #8A53FF;
+                font-weight: 700;
+                font-family: "Roboto";
+            }
 
             span{
-                font-size: 14px;
-                font-style: italic;
-                color: #A2A7B1;
+                font-size: 50px;
+                font-weight: 500;
+                color: #434343;
+                font-family: "Changa One";
             }
         }
 
-    }
+        &-right{
+            
+            display: flex;
+            justify-content: flex-end; 
+            width: 100%;
+            img{
+                display: flex;
+            }
 
+            div{
+                margin-left: 10px;
+                font-family: "Roboto";
+                font-weight: 400;
+
+                span{
+                    font-size: 14px;
+                    font-style: italic;
+                    color: #A2A7B1;
+                }
+            }
+
+        }
+    }
     &-hero{
         margin-top: 20px;
         background: url("../img/Featured.png") no-repeat;
