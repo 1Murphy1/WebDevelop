@@ -1,0 +1,68 @@
+.featured {
+
+
+  &-container {
+    padding: 107px 0;
+    max-width: 1160px;
+    width: 100%;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-blurb {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 520px;
+    line-height: 1.8;
+    color: #434343;
+    font-family: "Roboto";
+
+    img {
+      width: 46.5%;
+    }
+
+    span {
+      color: #8A53FF;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    p {
+      font-family: "Changa One";
+      font-size: 39px;
+      display: flex;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      width: 144px;
+      height: 36px;
+      margin-top: 24px;
+
+
+      img {
+        width: 36px;
+        height: 36px;
+        padding-right: 12px;
+
+      }
+
+      span {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+
+    }
+
+  }
+
+}

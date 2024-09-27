@@ -1,0 +1,71 @@
+.block-logo {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-family: "Black Signature";
+  }
+
+  span {
+    font-family: "Changa One";
+    font-size: 24px;
+    color: #8A53FF;
+  }
+}
+
+.block-img {
+  display: flex;
+  gap: 14.13px;
+  list-style-type: none;
+}
+
+hr {
+  width: 1px;
+  height: 24px;
+  background-color: #EEEEEE;
+  border: none;
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  &_navbar {
+    max-width: 457px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    height: 19px;
+    gap: 14.13px;
+  }
+
+  &_block-link {
+    width: 100%;
+    color: #495367;
+    display: flex;
+    gap: 14.13px;
+    align-items: center;
+    font-family: "Roboto";
+
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
